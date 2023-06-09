@@ -15,6 +15,7 @@ public class SolutionsTest {
     static void beforeAll() {
 
         Configuration.pageLoadStrategy = "eager";
+        Configuration.browserSize = "1920x1080";
     }
 
     @Test

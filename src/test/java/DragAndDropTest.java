@@ -11,6 +11,7 @@ public class DragAndDropTest {
     static void beforeAll() {
 
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
+        Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
     }
 
